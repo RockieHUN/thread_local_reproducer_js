@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import {Lib} from "threadlocalreproducer/packages/apilib";
 
 function App() {
   return (
@@ -20,6 +21,10 @@ function App() {
       </header>
     </div>
   );
+}
+
+function hello() {
+  Lib()
 }
 
 export default App;
